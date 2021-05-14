@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+	  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+  	
+    <title>Mobile Info</title>
+<style>
+				body{
+  
+  margin:5;
+  background-color:#f4f4f4;
+}
+#mySearch {
+  
+  padding: 3px;
+  
+  border: 1px solid #000000;}
+
+
+
+
+header{
+  background:#F5F5F5;
+  color:##BF360C;
+  position:sticky;
+top:0;
+  border-bottom:#e8491d 3px solid;
+}
+
+
+    		header .highlight, header .current a{
+  color:#33691E;
+  font-weight:bold;
+}		
+    				
+    				
+    				
+    					#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}			
+    				
+    				
+    				
+    				
+   
+    		
+    
+    				
+    				
+    				
+    							@font-face{
+        font-family:Indulekhablack;
+        src:url(Indulekhablack.ttf)format("truetype")
+}
+							@font-face{
+        font-family:Indulekha;
+        src:url(Indulekha.ttf)format("truetype")
+}
+h6{display:none;}
+h3{font-family:Indulekhablack;font-size:40px;text-align:center;color:red;}
+h1{font-family:Indulekhablack;font-size:20px;}
+p{font-family:Indulekha;font-size:25px;}
+
+
+
+
+
+.gradient-text {
+  background: linear-gradient(to right, #b530d0 0%, #ec3481 50%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+</style>
+
+<header>
+      				
+      				
+      <h1><span class="highlight">Mobile</span> Info</h1>
+       
+         
+    
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search ......" title="Type in a category">
+        <br><br>
+        <div class="scrollmenu">
+  <a href="ccn.html">Customer Care Numbers</a>
+  <a href="mcn html">Message Center Numbers</a>
+ 
+  
+</div>
+      
+    </header>
+        
+
+<ul id="myMenu">
+
+
+    
+    
+    <div class="item">
+    				
+				<li><a>
+						<h6>History</h6>		
+		<div class="gradient-text p-20-tb">
+				
+    <p>
+    	റീചാർജ് പ്ലാനുകളറിയാൻ സഹായിക്കുന്ന വെബ്സൈറ്റ് ആണ് Plansinfo.com.</p> </div>
+    	<p>
+   <a href="https://www.plansinfo.com/">Visit Webpage</a>
+  
+    		</a></li>
+    </div>
+
+<hr>
+
+
+
+
+
+
+
+</ul>
+<script>
+    				function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+
+    </script>
+
+    <br><br><br><br>
+  </body>
+</html>
