@@ -2,94 +2,72 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Mobile Info">
     
-	  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
-  	<link rel="stylesheet" type="text/css" href="style.css" />
+	  <meta name="keywords" content="Mobile Info">
+  	<meta name="author" content="Mobile Info">
     <title>Mobile Info</title>
-<head>
-			
-<body>
-				
-				
-				
-				<header>
-      				
-      				
-      <h1>Mobile Info</h1>
-       
-         
+    <link rel="stylesheet" href="style.css">
     
-        
-        
-      
-    </header>
-				
-				<br><br>
+  </head>
+  <style>
+  		
+  </style>
+  <body>
+  				<header>
+  				<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search ......" title="Type in a category">
+  				<br>
+  				</header>
+   
 
 				<ul id="myMenu">
-								
-								
-										<div class="item">
-								
-								<li><a href="os.html">
-												<br>
-												<center>
-																<img src="os.png" alt=""></center>
-												
-												<h6>Mobile operating system/mobile</h6><h2 class="main">മൊബൈൽ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം</h2></a></li>
-				</div>
-								
-								
-								
-								
-								
-								
-								<div class="item">
-								
-								<li><a href="radiation.html">
-												<br>
-												<center>
-																<img src="radiation.jpg" alt=""></center>
-												
-												<h6>Mobile radiation/mobile</h6><h2 class="main">മൊബൈൽ റേഡിയേഷൻ</h2></a></li>
-				</div>
-								
-								
-								<div class="item">
-								
-								<li><a href="mnp.html">
-												<br>
-												<center>
-																<img src="sim1.jpg" alt=""></center>
-												
-												<h6>MNP/Sim</h6><h2 class="main">മൊബൈൽ നമ്പർ പോർട്ടബിലിറ്റി</h2></a></li>
-				</div>
-				
-				
-								
-								</ul>
-	
-	
-							
-							
-							<script>
-	function myFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-</script>
+    								<li><a>
+    												<h6>History/Charithram</h6>
+    <section id="showcase">
+      <div class="container">
+      				
+      				
+      				<h2>1973 ഏപ്രിൽ 3</h2>
+        
+        <p>മോട്ടറോള കമ്പനിയിലെ സിസ്റ്റം ഡിവിഷൻ മാനേജറായിരുന്ന  മാർട്ടിൻ കൂപ്പർ ലോകത്തിന് മുമ്പിലേക്ക് ആദ്യ മൊബൈൽ ഫോൺ അവതരിപ്പിച്ചത് അന്നാണ്.	 </p>
+        
+        <h2>1995 ജൂലൈ 31</h2>
+        <p>ഇന്ത്യയിൽ ആദ്യമായി മൊബൈൽ കോൾ ചെയ്ത ദിവസം. ബംഗാൾ മുഖ്യമന്ത്രിയായിരുന്ന ജ്യോതി ബസു ആണ് ആദ്യമായി കോൾ ചെയ്തത്.</p>
+        
+        
+        <h2>1996 സെപ്റ്റംബര്‍ 17</h2>
+        <p>കേരളത്തിൽ ആദ്യമായി മൊബൈൽ കോൾ ചെയ്ത ദിവസം.കഥാകാരന്‍ തകഴി ശിവശങ്കരപിള്ളയാണ് ആദ്യമായി കോൾ ചെയ്തത്.</p>
+      
+      </div>
+     
+    </section>
+      </a></li>
+      
+      
+      
+      
+      
+      <li><a>
+      				<h6>Radiation</h6>
+      				<section class="item">
+      								<h2>റേഡിയേഷൻ / SAR Value</h2>
+      								<p>
+      												മൊബൈൽ ഫോണിലെ റേഡിയേഷൻ്റെ തീവ്രത അളക്കുന്ന അളവുകോലാണ് SAR (Specific Absorption Rate).
+      								</p>
+      							<a href="radiation.html">	<strong><p>കൂടുതൽ കാണുക >>></p></strong></a>
+      							
+      				</section>
+      </a></li>
 
+   
+   </ul>
+    
 
-</body>
-</html>	
+    
+    
+    				
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
