@@ -1,67 +1,51 @@
-	body{
- 
-  padding:0;
-  margin:0;
-  background-color:#f4f4f4;
-}
-	
 			@font-face{
         font-family:ib;
         src:url(ib.ttf)format("truetype")
 }
+
+@
 														
 									@font-face{
         font-family:i;
         src:url(i.ttf)format("truetype")
 }
-header{position:sticky;
-top:0; background-color:#000000;}
-	
-		#mySearch {
-		font-size:20px;
-		margin-top:15px;
-  margin-left:15%;
-  margin-bottom:15px;
-  width:50%;
-position:sticky;
-top:0;
-}			
-  				h6{display:none;}
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-#showcase{
-  min-height:400px;
-  background:url('main.png') no-repeat;
-  background-position: center;
-  background-size: cover;
-  text-align:center;
-  color:#000000;
-  margin:10px;
-  border-bottom:#33691E 3px solid;
-}
-p{font-family:i;}
-h2{font-family:ib;font-size:30px;}
-
-#myMenu {
+  		div.items1{border-left:#DD2C00 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-family:ib;font-size:20px;}
+  		
+  		div.items2{border-left:#1B5E20 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-family:ib;font-size:20px;}
+  		
+  		
+  		div.items3{border-left:#FF8A65 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-family:ib;font-size:20px;}
+  		
+  		
+ #myMenu {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.item{
-margin:25px;
-				padding:20px;
-  border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:#e6e6e6;
-}
-.item p{font-size:20px;}	
-#showcase p{
-  font-size:20px;
-}
-
+	#mySearch {
+		background-position: 10px 12px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #EF9A9A;
+  border-radius:10px;
+  margin-bottom: 12px;
+  outline:none;
+  
+  
+position:sticky;
+top:0;
+}			
+h6{display:none;}
 a{text-decoration:none;}
-.content {margin:10px;}
-.content p{font-size:20px;}
+
+div.content{border-left:#DD2C00 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-family:i;font-size:20px;}
+  		
+div.sar{box-shadow:1px 1px 2px 1px #D32F2F;}
+div.sar h3{background-color:#B71C1C;color:#ffffff;font-family:ib;padding:15px;font-size:30px;}
+div.sar p{font-family:i;font-size:20px;}
+div.imei{box-shadow:1px 1px 2px 1px black;}
+div.imei h3{color:#006064;text-align:center;}
+div.imei p{font-family:i;font-size:20px;}
