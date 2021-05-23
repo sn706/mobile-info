@@ -1,9 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-				<title>Mobile Info</title>
-</head>
-<body>
-				<p>Coming Soon</p>
-</body>
-</html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Mobile Info">
+    
+	  <meta name="keywords" content="Mobile Info">
+  	<meta name="author" content="Mobile Info">
+    <title>Mobile Info</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <style>
+  					@font-face{
+        font-family:ib;
+        src:url(ib.ttf)format("truetype")
+}
+														
+									@font-face{
+        font-family:i;
+        src:url(i.ttf)format("truetype")
+}
+
+p{font-family:i;font-size:20px;}
+
+h6{display:none;}
+			#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#mySearch {
+
+
+  width: 90%;
+  margin-left:3px;
+
+}
+h6{display:none;}
+
+a{text-decoration:none;}
+img{width:95%}
+								header{
+  
+  background-color:#DD2C00;
+  color:white;
+  position:sticky;
+top:0;
+  border-bottom:#e8491d 3px solid;
+}
+
+
+    		
+    				
+  h1{font-family:ib;font-size:20px;margin-left:3px;}  						
+
+
+.gradient{
+  background: linear-gradient(to right, #33691E 0%, #D32F2F 50%, #3E2723 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+}
+div.item1{border-left:#DD2C00 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+div.item2{border-left:#3E2723 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+div.item3{border-left:#1A237E 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+div.item4{border-left:#AFB42B 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+div.item5{border-left:#880E4F 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+
+
+div.item6{border-left:#BF360C 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+
+h2{font-family:ib;}
+.hr{
+  width:60px;
+  height:2px;
+  background-color:#f4363b;
+  border:0;
+  margin-bottom:50px; 
+}
+h3{text-align:center;font-family:ib;}
+  </style>
+  <body>
+  				
+  				<header>
+      				
+      				
+      
+       <h1>Mobile Info</h1>
+         
+    
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search ......" title="Type in a category">
+      </header><br>
+    
+    <ul id="myMenu">
+    				
+    				<li><a><div class="item5">
+    								<h6>bsnl/isd/sim</h6>
+    								<h3>BSNL ISD സേവനം ആക്ടീവേറ്റ് ചെയ്യാൻ</h3>
+    								<p>ACT  ISD എന്ന് ടൈപ്പ് ചെയ്ത് 53733 ലേക്ക് SMS അയക്കുക.സേവനം നിർത്തലാക്കാനായി DEACT ISD എന്ന് ടൈപ്പ് ചെയ്ത് 53733 ലേക്ക് SMS അയക്കുക.</p>
+    				</div></a></li></br>
+    				
+    				<li><a><div class="item4">
+    								<h6>Vas deactivation/sim</h6>
+    								<h3>Value Added Service ഒഴിവാക്കാൻ</h3>
+    								<p>STOP എന്ന് ടൈപ്പ് ചെയ്ത് 155223 ലേക്ക് SMS ചെയ്യുക.</p>
+    				</div></a></li></br>
+    				
+    				<li><a><div class="item3">
+    								<h6>Internet Activation/sim</h6>
+    								<h3>ഇന്റർനെറ്റ് സേവനം ആക്ടിവേറ്റ് ചെയ്യാൻ</h3>
+    								<p>START എന്ന് ടൈപ്പ് ചെയ്ത് 1925 ലേക്ക് SMS ചെയ്യുക.</p>
+    				</div></a></li></br>
+    				
+    				
+    				<li><a href="mnp.html"><div class="item1">
+    								<h6>Mnp/mobile number Portability/sim</h6>
+    								<p>മൊബൈൽ നമ്പർ പോർട്ടബിലിറ്റി >>></p>
+    				</div></a></li></br>
+    				
+    				
+    				<li><a href="imei.html"><div class="item2">
+    								<h6>imei/phone</h6>
+    								<p>IMEI >>></p>
+    				</div></a></li></br>
+    				
+    				
+    	
+    		<li><a href="sar"><div class="item6">
+    								<h6>radiation/phone/sar value</h6>
+    								
+    								<p>SAR Value >>></p> 
+    				</div></a></li></br>
+    				
+    				
+    			
+    				</ul>
+  				<script>
+  							function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+	
+  				</script>
+  </body>
+  </html>
