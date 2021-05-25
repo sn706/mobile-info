@@ -12,8 +12,8 @@
   </head>
   <style>
   					@font-face{
-        font-family:ib;
-        src:url(ib.ttf)format("truetype")
+        font-family:ep;
+        src:url(ep.ttf)format("truetype")
 }
 														
 									@font-face{
@@ -21,7 +21,20 @@
         src:url(i.ttf)format("truetype")
 }
 
-p{font-family:i;font-size:20px;}
+	@font-face{
+        font-family:ib;
+        src:url(ib.ttf)format("truetype")
+}
+
+	@font-face{
+        font-family:Regular;
+        src:url(Regular.ttf)format("truetype")
+}
+
+
+h2{font-family:Regular;text-align:center;color:red;}
+
+p{font-family:ep;font-size:20px;}
 
 h6{display:none;}
 			#myMenu {
@@ -50,9 +63,9 @@ top:0;
 }
 
 
-    		
+div.video h3{font-family:i;}
     				
-  h1{font-family:ib;font-size:20px;margin-left:3px;}  						
+  h1{font-family:Regular;font-size:20px;margin-left:3px;}  						
 
 
 .gradient{
@@ -62,17 +75,13 @@ top:0;
   
   
 }
-div.item1{border-left:#DD2C00 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
-div.item2{border-left:#3E2723 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
-div.item3{border-left:#1A237E 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
-div.item4{border-left:#AFB42B 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
-div.item5{border-left:#880E4F 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
 
+div.item1{border-bottom:#DD2C00 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
+.hr{ 
+  
+  box-shadow:1px 1px 1px 1px black; }
 
-div.item6{border-left:#BF360C 4px solid;box-shadow:1px 1px 1px 1px #000000;padding:2px;margin:3px;font-size:20px;}
-
-h2{font-family:ib;}
-.hr{
+.hd{
   width:60px;
   height:2px;
   background-color:#f4363b;
@@ -80,6 +89,36 @@ h2{font-family:ib;}
   margin-bottom:50px; 
 }
 h3{text-align:center;font-family:ib;}
+div.sec p{font-family:ep;color:black;}
+div.sec h2{font-family:Regular;color:black;}
+div.mal p{font-family:i;color:black;}
+div.mal h2{font-family:ib;color:black;}div.des p{color:red;}
+div.mnp p{font-family:i;}
+div.mnp h2{font-family:ib;}
+table {
+            width: 100%;
+            border-collapse: collapse;
+            }
+        
+
+        table td,
+        table th {
+            border: 1px solid #000;
+            padding: 15px;
+            
+        }
+
+        th {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            text-align: center;
+            color: #880E4F;
+            
+            font-family:ib;
+        }
+        
+ div.updates img{width:20%;height:20%;}
+ div.updates p{font-family:i;}
   </style>
   <body>
   				
@@ -91,50 +130,245 @@ h3{text-align:center;font-family:ib;}
          
     
         <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search ......" title="Type in a category">
+      
       </header><br>
     
     <ul id="myMenu">
-    				
-    				<li><a><div class="item5">
-    								<h6>bsnl/isd/sim</h6>
-    								<h3>BSNL ISD സേവനം ആക്ടീവേറ്റ് ചെയ്യാൻ</h3>
-    								<p>ACT  ISD എന്ന് ടൈപ്പ് ചെയ്ത് 53733 ലേക്ക് SMS അയക്കുക.സേവനം നിർത്തലാക്കാനായി DEACT ISD എന്ന് ടൈപ്പ് ചെയ്ത് 53733 ലേക്ക് SMS അയക്കുക.</p>
-    				</div></a></li></br>
-    				
-    				<li><a><div class="item4">
-    								<h6>Vas deactivation/sim</h6>
-    								<h3>Value Added Service ഒഴിവാക്കാൻ</h3>
-    								<p>STOP എന്ന് ടൈപ്പ് ചെയ്ത് 155223 ലേക്ക് SMS ചെയ്യുക.</p>
-    				</div></a></li></br>
-    				
-    				<li><a><div class="item3">
-    								<h6>Internet Activation/sim</h6>
-    								<h3>ഇന്റർനെറ്റ് സേവനം ആക്ടിവേറ്റ് ചെയ്യാൻ</h3>
-    								<p>START എന്ന് ടൈപ്പ് ചെയ്ത് 1925 ലേക്ക് SMS ചെയ്യുക.</p>
-    				</div></a></li></br>
-    				
-    				
-    				<li><a href="mnp.html"><div class="item1">
-    								<h6>Mnp/mobile number Portability/sim</h6>
-    								<p>മൊബൈൽ നമ്പർ പോർട്ടബിലിറ്റി >>></p>
-    				</div></a></li></br>
-    				
-    				
-    				<li><a href="imei.html"><div class="item2">
-    								<h6>imei/phone</h6>
-    								<p>IMEI >>></p>
-    				</div></a></li></br>
-    				
-    				
-    	
-    		<li><a href="sar"><div class="item6">
-    								<h6>radiation/phone/sar value</h6>
-    								
-    								<p>SAR Value >>></p> 
-    				</div></a></li></br>
-    				
-    				
+    				<div class="updates">
+    						
+    				<li><a>		<h6>Latest/updates</h6><h2 class="gradient">Latest Updates</h2>
     			
+    				<hr class="hd">
+    				<center><img src="google photo.jpg" alt=""></center>
+    				<p>2021 ജൂണ്‍ 1 മുതൽ ഗൂഗിൾ ഫോട്ടോസിൽ പരിധിയില്ലാതെ ഫോട്ടോ,വീഡിയോ സ്‌റ്റോറേജ് ലഭിക്കില്ല.പരിധിയില്ലാതെ ലഭിച്ചിരുന്ന ഈ സേവനം ജൂൺ 1 മുതൽ ഓരോ അക്കൗണ്ടിനും ലഭിക്കുന്ന 15 ജിബി സ്റ്റോറേജ് മാത്രമേ ഉപയോഗിക്കാനാവൂ.അതിൽ കൂടുതലുള്ള സ്റ്റോറേജ് പർച്ചേസ് ചെയ്യണം.രണ്ട് വർഷമായി ഉപയോഗിക്കാത്ത ഗൂഗിൾ അക്കൗണ്ടിലെ ഫയലുകൾ ഗൂഗിൾ നീക്കം ചെയ്യാനാരംഭിക്കും.</p>
+   <hr class="hr">
+   	</a></li>
+    				</div>
+    				
+    				
+    				
+    				
+    				<div class="sec">
+    						
+    				<li><a>		<h6>sim/message center numbers</h6><h2 class="gradient">Message Center Numbers</h2>
+    				<hr class="hd">
+    				
+    				
+    							<table>
+    								<tr>
+    												<td>Idea</td>
+    												<td>+919847099996</td>
+    								</tr>
+    								<tr>
+    												<td>Vodafone</td>
+    												<td>+919846000040</td>
+    								</tr>
+    								<tr>
+    												<td>BSNL</td>
+    												<td>+919442099997</td>
+    								</tr>
+    								<tr>
+    												<td>Airtel</td>
+    								<td>+919810051905</td>
+    								</tr>
+    								<tr>
+    												<td>
+    																Jio
+
+    												</td>
+    												<td>
+    															+917012075009
+    												</td>
+    								</tr>
+    								
+    																				
+    								
+    				</table><br>
+    				
+    							
+   <hr class="hr">
+   	</a></li>
+    				</div>
+    				
+    				
+    				
+    				
+    				
+    				<div class="sec">
+    						
+    				<li><a>		<h6>sim/tv/dth/customer Care</h6><h2 class="gradient">Customer Care Numbers</h2>
+    				<hr class="hd">
+    				<h3>Mobile</h3>
+    				
+    							<table>
+    								<tr>
+    												<td>Vi</td>
+    												<td>198</td>
+    								</tr>
+    								<tr>
+    												<td>Jio</td>
+    												<td>198</td>
+    								</tr>
+    								<tr>
+    												<td>BSNL</td>
+    												<td>1503</td>
+    								</tr>
+    								<tr>
+    												<td>Airtel</td>
+    								<td>198</td>
+    								</tr>
+    						
+    								
+    																				
+    								
+    				</table><br>
+    				
+    				
+    				<h3>DTH</h3>
+    				
+    							<table>
+    								<tr>
+    												<td>Sun Direct</td>
+    												<td>1800-103-7575<br>
+1800-123-7575<br>
+76010 12345</td>
+    								</tr>
+    								<tr>
+    												<td>Dish</td>
+    												<td>95017-95017</td>
+    								</tr>
+    								<tr>
+    												<td>Videocon D2H</td>
+    												<td>91156 91156<br>1800 212 212</td>
+    								</tr>
+    								<tr>
+    												<td>Airtel DTH</td>
+    								<td>1800-103-6065<br><b>Kerala - </b>0484 4448080</td>
+    								</tr>
+    						
+    								<tr>
+    												<td>Tatasky</td>
+    												<td>1800 208 6633</td>
+    								</tr>
+    																				
+    								
+    				</table><br>
+    				 <hr class="hr">
+   	</a></li>
+    				</div>
+    				
+    				
+    				<div class="sec">
+    						
+    				<li><a>		<h6>sim/mobile/ussd codes/balance/data</h6><h2 class="gradient">USSD CODES</h2>
+    				<hr class="hd">
+    				<h3>SIM</h3>
+    				
+    							<table>
+    								<tr>
+    												<td>BSNL</td>
+    												<td><b>Main Account - </b>*123#</br><b>Voice & Data Pack - </b>*124*2#<br><b>Check Own Number - </b>*888#<br></td>
+    								</tr>
+    								<tr>
+    												<td>Vi</td>
+    												<td><b>Main Account - </b>*121#<br><b>Data Pack - </b>*125#<br><b>Check Own Number - </b>*789#</td>
+    								</tr>
+    								<tr>
+    												<td>Airtel</td>
+    												<td><b>Main Account - </b>*123#<br><b>Check Own Number - </b>*282#</td>
+    								</tr>
+    								
+    								<tr>
+    												<td>
+    																Jio
+
+    												</td>
+    												<td>
+    															<b>Account Balance & Active Plan - </b>1299
+    												</td>
+    								</tr>
+    								
+    																				
+    								
+    				</table><br>
+    				
+    				
+    				
+    				
+    				<h3>Mobile</h3>
+    				
+    							<table>
+    								<tr>
+    												<td>IMEI </td>
+    												<td>*#06#</td>
+    								</tr>
+    								
+    								
+    								<tr>
+    												<td>SAR Value </td>
+    												<td>*#07#</td>
+    								</tr>
+    								
+    																				
+    								
+    				</table><br>
+    				
+    				
+    				
+    							
+   <hr class="hr">
+   	</a></li>
+    				</div>
+    				
+    				
+    				<div class="mnp">
+    							<li><a>		<h6>sim/mnp/mobile number portability</h6><h2 class="gradient">മൊബൈൽ നമ്പർ പോർട്ടബിലിറ്റി
+
+</h2>
+    			
+    				<hr class="hd">
+    			
+    				<p>നിലവിലുള്ള ഫോൺ നമ്പർ മാറാതെ തന്നെ നിലവിലുള്ള സേവനദാതാവിനെ മാറ്റി മറ്റൊരു സേവനദാതാവിലേക്ക് മാറുന്നതാണ് മൊബൈൽ നമ്പർ പോർട്ടബിലിറ്റി അഥവാ എം.എൻ.പി.ഇന്ത്യയിൽ ഈ സംവിധാനം നിലവിൽ വന്നത് 2011 ജനുവരി 20 നാണ്.</p>
+    				<h3>പോർട്ട് ചെയ്യാൻ</h3>
+    				<p>PORT മൊബൈൽ നമ്പർ ടൈപ്പ് ചെയ്ത് 1900 ലേക്ക് SMS ചെയ്യുക (Eg.PORT 1234567890). കുറച്ച് മിനിറ്റിനുള്ളിൽ മൊബൈലിൽ ഒരു യുപിസി (യുണീക്ക് പോർട്ടിംഗ് കോഡ്) ലഭിക്കും. ആവശ്യമായ തിരിച്ചറിയൽ രേഖയുമായി അടുത്തുള്ള റീട്ടെയിലറെ സന്ദർശിച്ച് യു‌പി‌സി പങ്കിടുക. ഒരു പുതിയ സിം ലഭിക്കും. പുതിയ സിം സജീവമാക്കുന്നതിന് 3 ദിവസം മുതൽ 6 ദിവസം വരെ എടുത്തേക്കാം. പുതിയ സിം സജീവമാകുന്നതുവരെ പഴയ സിം പ്രവർത്തിക്കുന്നത് തുടരും. പഴയ സിമ്മിൽ നിന്നുള്ള നെറ്റ്‌വർക്ക് അപ്രത്യക്ഷമായാൽ, മൊബൈലിലേക്ക് പുതിയ സിം ഇടുക.</p>
+   <hr class="hr">
+   	</a></li>
+    				</div>
+    				
+    				
+    				
+    				
+    				<div class="mnp">
+    							<li><a>		<h6>imei/mobile/information</h6><h2 class="gradient">IMEI
+
+</h2>
+    			
+    				<hr class="hd">
+    			
+    				<p>International Mobile Equipment Identity എന്നതിനെ ചുരുക്കി പറയുന്നതാണ് IMEI.ഓരോ മൊബൈലിലും വ്യത്യസ്തമായിരിക്കും IMEI നമ്പർ.ഫോൺ നഷ്ടപ്പെട്ടാൽ കണ്ടെത്തുന്നതിന് IMEI നമ്പർ ആവശ്യമാണ്.*#06# ഡയൽ ചെയ്താൽ IMEI നമ്പർ അറിയാൻ കഴിയും. മൊബൈൽ ഫോണിൽ കമ്പനിക്ക് കിട്ടുന്ന അംഗീകാരം,കമ്പനിയുടെ മോഡൽ നിർമ്മാണ നമ്പർ,ഒരു കമ്പനിയുടെ വിവിധ മോഡലുകളുടെ പ്രൊഡക്ഷൻ എണ്ണം എന്നിവയെല്ലാം IMEI നമ്പറിൽ അടങ്ങിയിരിക്കുന്നു.</p>
+   <hr class="hr">
+   	</a></li>
+    				</div>
+    				
+    				
+    				
+    				<div class="mnp">
+    							<li><a>		<h6>radiation/sar value/information</h6><h2 class="gradient">SAR Value
+
+</h2>
+    			
+    				<hr class="hd">
+    			
+    				<p>മൊബൈൽ ഫോണിലെ റേഡിയേഷൻ്റെ തീവ്രത അളക്കുന്ന അളവുകോലാണ് SAR (Specific Absorption Rate).നാം മൊബൈൽ ഫോൺ ഉപയോഗിക്കുമ്പോൾ ശരീരം ആഗിരണം ചെയ്യുന്ന ഉയർന്ന ഫ്രീക്വൻസിയിലുള്ള ഊർജത്തിന്റെ അളവാണ് SAR എന്നതുകൊണ്ട് സൂചിപ്പിക്കുന്നത്.SAR അളക്കുന്നത് വാട്ട്/കിലോഗ്രാമിലാണ്.നിയമപ്രകാരം 1.6 വാട്ട്/കിലോഗ്രാമാണ് ഒരു മൊബൈൽ ഫോണിൽ നിന്ന് പുറപ്പെടുവിക്കാവുന്ന പരമാവധി SAR Value.ഫെഡറൽ കമ്മ്യൂണിക്കേഷൻ കമ്മീഷനാണ് (FCC) അളവ് നിജപ്പെടുത്തുന്നത്.2013 സെപ്റ്റംബർ 1 മുതൽ FCC സ്റ്റാൻഡേർഡ് പ്രകാരം ഇന്ത്യയിലും പരമാവധി SAR Value 1.6 വാട്ട്/കിലോഗ്രാമാണ്</p>
+    				<h3>ശ്രദ്ധിക്കാം</h3>
+    					<p>1.ദീർഘനേരമുള്ള ഫോൺ കോളുകൾ പരമാവധി ഒഴിവാക്കുക.ദീർഘസമയമുള്ള കോളുകൾക്ക് ഹെഡ്ഫോണുകൾ ഉപയോഗിക്കുക.<br>
+2. ഒരു ചെവിയിൽ തന്നെ വച്ച് കോൾ ചെയ്യാതെ ഇരു ചെവികളിലായി മാറി മാറി ഉപയോഗിക്കുക.<br>
+3. ശരീരത്തിൽ നിന്ന് പരമാവധി അകലത്തിൽ ഫോൺ വയ്ക്കുക.<br>
+4. സിഗ്നൽ കുറവായ സമയത്തുള്ള കോളിംഗ് പരമാവധി ഒഴിവാക്കുക.</p>
+   <hr class="hr">
+   	</a></li>
+    				</div>
+    				
     				</ul>
   				<script>
   							function myFunction() {
