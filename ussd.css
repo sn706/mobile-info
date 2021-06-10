@@ -1,0 +1,33 @@
+		#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#mySearch {
+
+margin:3px;
+  width: 90%;
+  margin-left:3px;
+  position:sticky;top:0px;
+  border:2px solid red;
+  
+
+}
+							div.sc{box-shadow:2px 2px 2px 2px #9E9E9E;}
+h3{font-family:ib;color:#D32F2F;font-size:25px;}			
+p{font-family:i;font-size:20px;}
+	@font-face{
+        font-family:ib;
+        src:url(ib.ttf)format("truetype")
+}
+
+
+														
+									@font-face{
+        font-family:i;
+        src:url(i.ttf)format("truetype")
+}
+h6{display:none;}
+header{background-color:red;position:sticky;top:0px;}
+header{background-color:#DD2C00; position:sticky;top:0px;margin:0}
+a{text-decoration:none;}
