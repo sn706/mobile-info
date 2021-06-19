@@ -1,0 +1,53 @@
+						#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#mySearch {
+  width: 100%;
+  border: 1px solid #000000;
+position:sticky;
+top:0;
+}
+
+
+h3{text-align:center;font-size:25px; background-color:#B71C1C;color:white; font-family:ib;}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #000;
+            padding: 15px;
+            font-family:i;
+        }
+
+        th {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            text-align: left;
+            color: #FFFFFF;
+            background-color:#B71C1C;
+            font-family:ib;
+        }
+
+        
+   
+							
+										@font-face{
+        font-family:ib;
+        src:url(ib.ttf)format("truetype")
+}
+														
+									@font-face{
+        font-family:i;
+        src:url(i.ttf)format("truetype")
+}
+
+
+p{font-family:i;font-size:20px;}
+
+

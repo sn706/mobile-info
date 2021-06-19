@@ -1,0 +1,5 @@
+		@font-face{
+        font-family:i;
+        src:url(i.ttf)format("truetype")
+}
+p{font-family:i;font-size:20px;}

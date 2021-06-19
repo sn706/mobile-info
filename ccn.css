@@ -1,0 +1,43 @@
+		@font-face{
+        font-family:ib;
+        src:url(ib.ttf)format("truetype")
+}
+
+ 		@font-face{
+        font-family:i;
+        src:url(i.ttf)format("truetype")
+}
+
+h3{font-family:ib; background-color:red;color:white;font-size:30px;text-align:center;}
+p{font-size:20px;text-align:center;font-family:i;}
+
+h6{display:none;}
+h1{font-family:ib;text-align:center;font-size:20px;}
+a{text-decoration:none;}
+			#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#mySearch {
+  width: 100%;
+  border: 1px solid #000000;
+position:sticky;
+top:0;
+}			
+div.item{border-left:2px dotted #9E9E9E;box-shadow:1px 1px 1px 1px #9E9E9E;margin:10px;}
+hd{color:red;width:50%}
+
+hr.hd{
+  width:20%;
+  height:2px;
+  background-color:#1A237E;
+  border:0;
+  
+}
+hr{border:3px solid #880E4F;}
+		div{background-color:#FFEBEE;}
+		
+		div.main{background-color:#F0F4C3;}
+	
+				

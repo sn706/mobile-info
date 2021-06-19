@@ -1,0 +1,22 @@
+
+										@font-face{
+        font-family:ib;
+        src:url(ib.ttf)format("truetype")
+}
+														
+									@font-face{
+        font-family:i;
+        src:url(i.ttf)format("truetype")
+}
+
+
+p{font-family:i;font-size:20px;}
+h2{font-family:ib;text-align:center; background-color:#E91E63;color:#ffffff;}
+h5{font-family:ib;font-size:20px;text-align:center;}
+hr.hd{
+  width:20%;
+  height:2px;
+  background-color:#1A237E;
+  border:0;
+  
+}
