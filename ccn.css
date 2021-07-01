@@ -20,12 +20,12 @@ a{text-decoration:none;}
   margin: 0;
 }
 #mySearch {
-  width: 100%;
+  width: 90%;
   border: 1px solid #000000;
 position:sticky;
 top:0;
 }			
-div.item{border-left:2px dotted #9E9E9E;box-shadow:1px 1px 1px 1px #9E9E9E;margin:10px;}
+div.item{border-left:2px dotted #9E9E9E;box-shadow:1px 1px 1px 1px #9E9E9E;margin:10px; background-color:#FFEBEE;}
 hd{color:red;width:50%}
 
 hr.hd{
@@ -36,8 +36,10 @@ hr.hd{
   
 }
 hr{border:3px solid #880E4F;}
-		div{background-color:#FFEBEE;}
+	
 		
 		div.main{background-color:#F0F4C3;}
 	
-				
+				header{background-color:#DD2C00; position:sticky;top:0px;}
+				marquee{color:white;font-family:i;}
+h5{font-family:ib;}
